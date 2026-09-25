@@ -1,0 +1,7 @@
+﻿__pycache__/
+.venv/
+.env
+*.pyc
+telegram_native_history.json
+visuals/*.jpg
+visuals/*.png

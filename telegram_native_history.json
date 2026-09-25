@@ -1,0 +1,52 @@
+[
+  {
+    "key": "2026-09-25_morning_insight",
+    "date": "2026-09-25",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "executive_presence",
+    "pillar": "Leadership",
+    "message_id": 8,
+    "published_at": "2026-09-25T11:55:35.013247"
+  },
+  {
+    "key": "2026-09-25_framework",
+    "date": "2026-09-25",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "executive_presence",
+    "pillar": "Leadership",
+    "message_id": 9,
+    "published_at": "2026-09-25T11:55:36.662273"
+  },
+  {
+    "key": "2026-09-25_executive_perspective",
+    "date": "2026-09-25",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "executive_presence",
+    "pillar": "Leadership",
+    "message_id": 10,
+    "published_at": "2026-09-25T11:55:38.244892"
+  },
+  {
+    "key": "2026-09-25_workplace_reality",
+    "date": "2026-09-25",
+    "slot": "17:30",
+    "format": "workplace",
+    "topic": "executive_presence",
+    "pillar": "Leadership",
+    "message_id": 11,
+    "published_at": "2026-09-25T11:55:40.177415"
+  },
+  {
+    "key": "2026-09-25_question",
+    "date": "2026-09-25",
+    "slot": "20:30",
+    "format": "question",
+    "topic": "executive_presence",
+    "pillar": "Leadership",
+    "message_id": 12,
+    "published_at": "2026-09-25T11:55:42.190980"
+  }
+]

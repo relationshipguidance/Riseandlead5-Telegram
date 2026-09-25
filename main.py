@@ -1,10 +1,19 @@
-﻿import json
+import json
 import sys
 import requests
 from datetime import datetime, date
+from zoneinfo import ZoneInfo
+import random
 from pathlib import Path
 
 from config import BOT_TOKEN, CHANNEL
+
+try:
+    from PIL import Image, ImageDraw, ImageFont
+except ImportError:
+    Image = None
+    ImageDraw = None
+    ImageFont = None
 
 
 # ============================================================
@@ -409,8 +418,31 @@ def send_poll(question, options):
 # CONTENT GENERATION
 # ============================================================
 
-def choose_topic(day_index):
-    return CONTENT_BANK[day_index % len(CONTENT_BANK)]
+LOCAL_TZ = ZoneInfo("Asia/Kolkata")
+
+VISUALS_DIR = BASE_DIR / "visuals"
+VISUALS_DIR.mkdir(exist_ok=True)
+
+
+def daily_topics(day_index):
+    """
+    Select five different topics for the day.
+
+    The selection is deterministic for a given day, so repeated
+    workflow runs on the same day select the same five topics.
+    """
+    seed = 20260925 + day_index
+    rng = random.Random(seed)
+
+    pool = list(CONTENT_BANK)
+    rng.shuffle(pool)
+
+    return pool[:DAILY_POST_TARGET]
+
+
+def choose_topic(day_index, slot_index=0):
+    topics = daily_topics(day_index)
+    return topics[slot_index % len(topics)]
 
 
 def build_post(topic, slot_name, day_index):
@@ -488,6 +520,160 @@ def build_post(topic, slot_name, day_index):
 
 
 # ============================================================
+# VISUAL GENERATION
+# ============================================================
+
+def get_font(size, bold=False):
+    candidates = []
+
+    if bold:
+        candidates.extend([
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+            "C:/Windows/Fonts/segoeuib.ttf",
+            "C:/Windows/Fonts/arialbd.ttf",
+        ])
+    else:
+        candidates.extend([
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+            "C:/Windows/Fonts/segoeui.ttf",
+            "C:/Windows/Fonts/arial.ttf",
+        ])
+
+    for candidate in candidates:
+        if Path(candidate).exists():
+            return ImageFont.truetype(candidate, size)
+
+    return ImageFont.load_default()
+
+
+def wrap_text(draw, text, font, max_width):
+    words = text.split()
+    lines = []
+    current = ""
+
+    for word in words:
+        test = f"{current} {word}".strip()
+
+        if draw.textlength(test, font=font) <= max_width:
+            current = test
+        else:
+            if current:
+                lines.append(current)
+            current = word
+
+    if current:
+        lines.append(current)
+
+    return lines
+
+
+def generate_visual(topic, today):
+    if Image is None:
+        print("Pillow is unavailable. Skipping visual generation.")
+        return None
+
+    width, height = 1080, 1350
+
+    # Clean Rise&Lead visual palette.
+    background = (248, 246, 240)
+    dark = (24, 31, 42)
+    gold = (177, 137, 58)
+    muted = (92, 99, 110)
+
+    image = Image.new("RGB", (width, height), background)
+    draw = ImageDraw.Draw(image)
+
+    brand_font = get_font(38, bold=True)
+    pillar_font = get_font(27, bold=True)
+    hook_font = get_font(64, bold=True)
+    small_font = get_font(24, bold=False)
+
+    # Brand
+    draw.text(
+        (80, 75),
+        "RISE&LEAD",
+        font=brand_font,
+        fill=dark
+    )
+
+    draw.rectangle(
+        (80, 140, 230, 148),
+        fill=gold
+    )
+
+    draw.text(
+        (80, 190),
+        topic["pillar"].upper(),
+        font=pillar_font,
+        fill=gold
+    )
+
+    # Hook
+    hook = topic["hook"].strip()
+    lines = wrap_text(
+        draw,
+        hook,
+        hook_font,
+        width - 160
+    )
+
+    y = 310
+    line_spacing = 18
+
+    for line in lines:
+        draw.text(
+            (80, y),
+            line,
+            font=hook_font,
+            fill=dark
+        )
+
+        bbox = draw.textbbox((80, y), line, font=hook_font)
+        y = bbox[3] + line_spacing
+
+    # Bottom insight
+    insight = topic["takeaway"].strip()
+    insight_lines = wrap_text(
+        draw,
+        insight,
+        small_font,
+        width - 160
+    )
+
+    bottom_y = height - 250
+
+    draw.text(
+        (80, bottom_y),
+        "THE RISE&LEAD TAKE",
+        font=pillar_font,
+        fill=gold
+    )
+
+    bottom_y += 55
+
+    for line in insight_lines[:5]:
+        draw.text(
+            (80, bottom_y),
+            line,
+            font=small_font,
+            fill=muted
+        )
+        bottom_y += 35
+
+    draw.text(
+        (80, height - 70),
+        f"Rise&Lead  •  {today}",
+        font=small_font,
+        fill=muted
+    )
+
+    filename = VISUALS_DIR / f"{today}_morning_insight.jpg"
+    image.save(filename, "JPEG", quality=92, optimize=True)
+
+    return filename
+
+
+# ============================================================
 # POLL
 # ============================================================
 
@@ -507,13 +693,17 @@ def build_poll(topic):
 # DAILY SCHEDULING
 # ============================================================
 
+def now_local():
+    return datetime.now(LOCAL_TZ)
+
+
 def today_string():
-    return date.today().isoformat()
+    return now_local().date().isoformat()
 
 
 def get_day_index():
     start = date(2026, 9, 25)
-    return (date.today() - start).days
+    return (now_local().date() - start).days
 
 
 def published_keys(history):
@@ -523,10 +713,38 @@ def published_keys(history):
     }
 
 
+def send_photo(photo_path, caption):
+    try:
+        with open(photo_path, "rb") as photo:
+            response = requests.post(
+                f"{API_URL}/sendPhoto",
+                data={
+                    "chat_id": CHANNEL,
+                    "caption": caption[:1024]
+                },
+                files={
+                    "photo": photo
+                },
+                timeout=60
+            )
+
+        result = response.json()
+
+        if not result.get("ok"):
+            print("Telegram error:", result.get("description"))
+            return None
+
+        return result
+
+    except Exception as exc:
+        print("Photo upload error:", exc)
+        return None
+
+
 def publish_slot(slot_index):
     history = load_history()
 
-    now = datetime.now()
+    now = now_local()
     today = today_string()
 
     slot_time, slot_name = SLOTS[slot_index]
@@ -538,7 +756,7 @@ def publish_slot(slot_index):
 
     day_index = get_day_index()
 
-    topic = choose_topic(day_index)
+    topic = choose_topic(day_index, slot_index)
     generated = build_post(topic, slot_name, day_index)
 
     print()
@@ -546,12 +764,14 @@ def publish_slot(slot_index):
     print("RISE&LEAD TELEGRAM")
     print("=" * 60)
     print(f"Date    : {today}")
+    print(f"Time    : {now.strftime('%H:%M:%S')} IST")
     print(f"Slot    : {slot_time}")
     print(f"Format  : {generated['format']}")
     print(f"Topic   : {topic['topic']}")
     print()
 
     if generated["format"] == "question":
+
         poll = build_poll(topic)
 
         result = send_poll(
@@ -559,18 +779,27 @@ def publish_slot(slot_index):
             poll["options"]
         )
 
-        if not result:
-            return False
+    elif generated["format"] == "insight":
 
-        message_id = result["result"].get("message_id")
+        visual_path = generate_visual(topic, today)
+
+        if visual_path:
+            result = send_photo(
+                visual_path,
+                generated["text"]
+            )
+        else:
+            result = send_message(generated["text"])
 
     else:
+
         result = send_message(generated["text"])
 
-        if not result:
-            return False
+    if not result:
+        print("Publishing failed.")
+        return False
 
-        message_id = result["result"].get("message_id")
+    message_id = result["result"].get("message_id")
 
     history.append({
         "key": key,
@@ -585,7 +814,7 @@ def publish_slot(slot_index):
 
     save_history(history)
 
-    print(f"Published successfully.")
+    print("Published successfully.")
     print(f"Telegram message ID: {message_id}")
 
     return True
@@ -619,7 +848,7 @@ def publish_all_today():
 
 def run_due():
 
-    now = datetime.now()
+    now = now_local()
     current_minutes = now.hour * 60 + now.minute
 
     due = []
@@ -633,7 +862,10 @@ def run_due():
             due.append(index)
 
     if not due:
-        print("No Telegram slot is due yet.")
+        print(
+            f"No Telegram slot is due yet. "
+            f"Current India time: {now.strftime('%H:%M:%S')}"
+        )
         return
 
     history = load_history()

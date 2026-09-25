@@ -1,71 +1,43 @@
-﻿from pathlib import Path
+﻿import os
+from pathlib import Path
+
+try:
+    from dotenv import load_dotenv
+except ImportError:
+    load_dotenv = None
 
 
 BASE_DIR = Path(__file__).resolve().parent
 ENV_FILE = BASE_DIR / ".env"
 
 
-def read_env_file(path):
-    values = {}
-
-    if not path.exists():
-        raise RuntimeError(f".env file not found: {path}")
-
-    for raw_line in path.read_text(
-        encoding="utf-8-sig"
-    ).splitlines():
-
-        line = raw_line.strip()
-
-        if not line:
-            continue
-
-        if line.startswith("#"):
-            continue
-
-        if "=" not in line:
-            continue
-
-        key, value = line.split("=", 1)
-
-        key = key.strip()
-        value = value.strip()
-
-        # Remove optional surrounding quotes
-        if len(value) >= 2:
-            if (
-                (value.startswith('"') and value.endswith('"'))
-                or
-                (value.startswith("'") and value.endswith("'"))
-            ):
-                value = value[1:-1]
-
-        values[key] = value
-
-    return values
+# Load .env for local Windows execution.
+# GitHub Actions supplies these values through environment variables.
+if load_dotenv:
+    load_dotenv(ENV_FILE)
 
 
-ENV = read_env_file(ENV_FILE)
-
-BOT_TOKEN = ENV.get("TELEGRAM_BOT_TOKEN", "").strip()
-CHANNEL = ENV.get("TELEGRAM_CHANNEL", "").strip()
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
+CHANNEL = os.getenv("TELEGRAM_CHANNEL", "").strip()
 
 
 if not BOT_TOKEN:
     raise RuntimeError(
-        f"TELEGRAM_BOT_TOKEN is empty in {ENV_FILE}"
+        "TELEGRAM_BOT_TOKEN is not set. "
+        "Set it in .env locally or GitHub Actions Secrets."
     )
 
 
 if not CHANNEL:
     raise RuntimeError(
-        f"TELEGRAM_CHANNEL is empty in {ENV_FILE}"
+        "TELEGRAM_CHANNEL is not set. "
+        "Set it in .env locally or GitHub Actions Secrets."
     )
 
 
 API_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
 
-print(f"Config loaded: {ENV_FILE}")
+print("Config loaded successfully.")
 print(f"Bot token: FOUND ({len(BOT_TOKEN)} characters)")
 print(f"Channel: {CHANNEL}")

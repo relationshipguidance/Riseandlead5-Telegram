@@ -78,5 +78,15 @@
     "pillar": "Leadership",
     "message_id": 17,
     "published_at": "2026-09-26T18:49:08.420059+05:30"
+  },
+  {
+    "key": "2026-09-26_workplace_reality",
+    "date": "2026-09-26",
+    "slot": "17:30",
+    "format": "workplace",
+    "topic": "leadership_identity",
+    "pillar": "Mindset",
+    "message_id": 18,
+    "published_at": "2026-09-26T20:53:59.424690+05:30"
   }
 ]

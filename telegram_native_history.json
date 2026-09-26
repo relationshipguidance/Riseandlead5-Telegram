@@ -88,5 +88,15 @@
     "pillar": "Mindset",
     "message_id": 18,
     "published_at": "2026-09-26T20:53:59.424690+05:30"
+  },
+  {
+    "key": "2026-09-26_question",
+    "date": "2026-09-26",
+    "slot": "20:30",
+    "format": "question",
+    "topic": "confidence",
+    "pillar": "Mindset",
+    "message_id": 19,
+    "published_at": "2026-09-26T23:53:37.384729+05:30"
   }
 ]

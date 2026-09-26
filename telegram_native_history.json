@@ -68,5 +68,15 @@
     "pillar": "Workplace Reality",
     "message_id": 16,
     "published_at": "2026-09-26T15:38:44.513842+05:30"
+  },
+  {
+    "key": "2026-09-26_executive_perspective",
+    "date": "2026-09-26",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "communication",
+    "pillar": "Leadership",
+    "message_id": 17,
+    "published_at": "2026-09-26T18:49:08.420059+05:30"
   }
 ]

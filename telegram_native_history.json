@@ -98,5 +98,15 @@
     "pillar": "Mindset",
     "message_id": 19,
     "published_at": "2026-09-26T23:53:37.384729+05:30"
+  },
+  {
+    "key": "2026-09-27_morning_insight",
+    "date": "2026-09-27",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "confidence",
+    "pillar": "Mindset",
+    "message_id": 20,
+    "published_at": "2026-09-27T13:53:38.909688+05:30"
   }
 ]

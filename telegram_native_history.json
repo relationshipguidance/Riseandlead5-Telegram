@@ -108,5 +108,15 @@
     "pillar": "Mindset",
     "message_id": 20,
     "published_at": "2026-09-27T13:53:38.909688+05:30"
+  },
+  {
+    "key": "2026-09-27_framework",
+    "date": "2026-09-27",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "executive_presence",
+    "pillar": "Leadership",
+    "message_id": 21,
+    "published_at": "2026-09-27T16:11:29.756075+05:30"
   }
 ]

@@ -128,5 +128,15 @@
     "pillar": "Workplace Reality",
     "message_id": 22,
     "published_at": "2026-09-27T19:42:41.144161+05:30"
+  },
+  {
+    "key": "2026-09-27_workplace_reality",
+    "date": "2026-09-27",
+    "slot": "17:30",
+    "format": "workplace",
+    "topic": "professional_reputation",
+    "pillar": "Career",
+    "message_id": 23,
+    "published_at": "2026-09-27T21:33:22.417764+05:30"
   }
 ]

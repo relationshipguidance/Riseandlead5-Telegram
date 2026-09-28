@@ -158,5 +158,15 @@
     "pillar": "Leadership",
     "message_id": 26,
     "published_at": "2026-09-28T17:25:28.652977+05:30"
+  },
+  {
+    "key": "2026-09-28_executive_perspective",
+    "date": "2026-09-28",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "strategic_thinking",
+    "pillar": "Leadership",
+    "message_id": 27,
+    "published_at": "2026-09-28T22:25:40.392777+05:30"
   }
 ]

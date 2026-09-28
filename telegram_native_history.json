@@ -138,5 +138,15 @@
     "pillar": "Career",
     "message_id": 23,
     "published_at": "2026-09-27T21:33:22.417764+05:30"
+  },
+  {
+    "key": "2026-09-28_morning_insight",
+    "date": "2026-09-28",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "resilience",
+    "pillar": "Mindset",
+    "message_id": 25,
+    "published_at": "2026-09-28T14:19:14.469284+05:30"
   }
 ]

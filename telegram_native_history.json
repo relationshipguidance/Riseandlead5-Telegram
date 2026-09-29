@@ -168,5 +168,15 @@
     "pillar": "Leadership",
     "message_id": 27,
     "published_at": "2026-09-28T22:25:40.392777+05:30"
+  },
+  {
+    "key": "2026-09-29_morning_insight",
+    "date": "2026-09-29",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "promotion_readiness",
+    "pillar": "Career",
+    "message_id": 39,
+    "published_at": "2026-09-29T14:15:25.300753+05:30"
   }
 ]

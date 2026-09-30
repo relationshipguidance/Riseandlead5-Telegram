@@ -238,5 +238,15 @@
     "pillar": "Career",
     "message_id": 45,
     "published_at": "2026-09-30T20:38:36.519434+05:30"
+  },
+  {
+    "key": "2026-09-30_workplace_reality",
+    "date": "2026-09-30",
+    "slot": "17:30",
+    "format": "workplace",
+    "topic": "visibility",
+    "pillar": "Career",
+    "message_id": 46,
+    "published_at": "2026-09-30T22:46:08.488315+05:30"
   }
 ]

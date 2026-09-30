@@ -228,5 +228,15 @@
     "pillar": "Career",
     "message_id": 44,
     "published_at": "2026-09-30T16:49:17.817585+05:30"
+  },
+  {
+    "key": "2026-09-30_executive_perspective",
+    "date": "2026-09-30",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "promotion_readiness",
+    "pillar": "Career",
+    "message_id": 45,
+    "published_at": "2026-09-30T20:38:36.519434+05:30"
   }
 ]

@@ -208,5 +208,15 @@
     "pillar": "Mindset",
     "message_id": 42,
     "published_at": "2026-09-29T22:48:05.343711+05:30"
+  },
+  {
+    "key": "2026-09-30_morning_insight",
+    "date": "2026-09-30",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "decision_quality",
+    "pillar": "Leadership",
+    "message_id": 43,
+    "published_at": "2026-09-30T14:16:26.186595+05:30"
   }
 ]

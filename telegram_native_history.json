@@ -248,5 +248,15 @@
     "pillar": "Career",
     "message_id": 46,
     "published_at": "2026-09-30T22:46:08.488315+05:30"
+  },
+  {
+    "key": "2026-10-01_morning_insight",
+    "date": "2026-10-01",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "recognition",
+    "pillar": "Career",
+    "message_id": 47,
+    "published_at": "2026-10-01T14:38:19.388803+05:30"
   }
 ]

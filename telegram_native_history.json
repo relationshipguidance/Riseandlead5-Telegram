@@ -298,5 +298,15 @@
     "pillar": "Career",
     "message_id": 51,
     "published_at": "2026-10-02T14:12:08.045330+05:30"
+  },
+  {
+    "key": "2026-10-02_framework",
+    "date": "2026-10-02",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "difficult_conversations",
+    "pillar": "Leadership",
+    "message_id": 52,
+    "published_at": "2026-10-02T16:46:30.099357+05:30"
   }
 ]

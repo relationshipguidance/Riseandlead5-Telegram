@@ -338,5 +338,15 @@
     "pillar": "Mindset",
     "message_id": 55,
     "published_at": "2026-10-03T13:51:12.305832+05:30"
+  },
+  {
+    "key": "2026-10-03_framework",
+    "date": "2026-10-03",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "stakeholder_management",
+    "pillar": "Leadership",
+    "message_id": 56,
+    "published_at": "2026-10-03T16:03:10.408875+05:30"
   }
 ]

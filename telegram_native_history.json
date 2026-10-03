@@ -358,5 +358,15 @@
     "pillar": "Leadership",
     "message_id": 57,
     "published_at": "2026-10-03T19:06:52.668349+05:30"
+  },
+  {
+    "key": "2026-10-03_workplace_reality",
+    "date": "2026-10-03",
+    "slot": "17:30",
+    "format": "workplace",
+    "topic": "communication",
+    "pillar": "Leadership",
+    "message_id": 58,
+    "published_at": "2026-10-03T20:56:42.855502+05:30"
   }
 ]

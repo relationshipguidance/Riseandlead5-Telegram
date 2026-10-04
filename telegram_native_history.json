@@ -398,5 +398,15 @@
     "pillar": "Career",
     "message_id": 61,
     "published_at": "2026-10-04T19:47:01.389196+05:30"
+  },
+  {
+    "key": "2026-10-04_workplace_reality",
+    "date": "2026-10-04",
+    "slot": "17:30",
+    "format": "workplace",
+    "topic": "executive_presence",
+    "pillar": "Leadership",
+    "message_id": 62,
+    "published_at": "2026-10-04T21:40:54.179173+05:30"
   }
 ]

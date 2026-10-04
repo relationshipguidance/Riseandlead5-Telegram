@@ -378,5 +378,15 @@
     "pillar": "Career",
     "message_id": 59,
     "published_at": "2026-10-04T14:05:55.052722+05:30"
+  },
+  {
+    "key": "2026-10-04_framework",
+    "date": "2026-10-04",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "career_transition",
+    "pillar": "Career",
+    "message_id": 60,
+    "published_at": "2026-10-04T16:44:52.126747+05:30"
   }
 ]

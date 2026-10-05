@@ -418,5 +418,15 @@
     "pillar": "Career",
     "message_id": 63,
     "published_at": "2026-10-05T14:46:40.742507+05:30"
+  },
+  {
+    "key": "2026-10-05_framework",
+    "date": "2026-10-05",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "professional_reputation",
+    "pillar": "Career",
+    "message_id": 64,
+    "published_at": "2026-10-05T18:02:39.291106+05:30"
   }
 ]

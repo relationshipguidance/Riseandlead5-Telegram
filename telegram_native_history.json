@@ -458,5 +458,15 @@
     "pillar": "Career",
     "message_id": 67,
     "published_at": "2026-10-06T17:40:56.936167+05:30"
+  },
+  {
+    "key": "2026-10-06_executive_perspective",
+    "date": "2026-10-06",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "career_transition",
+    "pillar": "Career",
+    "message_id": 68,
+    "published_at": "2026-10-06T20:53:03.547030+05:30"
   }
 ]

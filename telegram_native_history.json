@@ -488,5 +488,15 @@
     "pillar": "Career",
     "message_id": 72,
     "published_at": "2026-10-07T14:27:13.795567+05:30"
+  },
+  {
+    "key": "2026-10-07_framework",
+    "date": "2026-10-07",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "stakeholder_management",
+    "pillar": "Leadership",
+    "message_id": 73,
+    "published_at": "2026-10-07T17:27:11.954980+05:30"
   }
 ]

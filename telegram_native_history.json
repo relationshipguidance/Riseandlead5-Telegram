@@ -518,5 +518,15 @@
     "pillar": "Career",
     "message_id": 75,
     "published_at": "2026-10-07T23:39:06.525546+05:30"
+  },
+  {
+    "key": "2026-10-08_morning_insight",
+    "date": "2026-10-08",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "accountability",
+    "pillar": "Leadership",
+    "message_id": 76,
+    "published_at": "2026-10-08T14:41:19.579871+05:30"
   }
 ]

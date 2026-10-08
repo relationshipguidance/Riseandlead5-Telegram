@@ -548,5 +548,15 @@
     "pillar": "Mindset",
     "message_id": 78,
     "published_at": "2026-10-08T21:17:42.186573+05:30"
+  },
+  {
+    "key": "2026-10-08_workplace_reality",
+    "date": "2026-10-08",
+    "slot": "17:30",
+    "format": "workplace",
+    "topic": "promotion_readiness",
+    "pillar": "Career",
+    "message_id": 79,
+    "published_at": "2026-10-08T23:41:25.277220+05:30"
   }
 ]

@@ -528,5 +528,15 @@
     "pillar": "Leadership",
     "message_id": 76,
     "published_at": "2026-10-08T14:41:19.579871+05:30"
+  },
+  {
+    "key": "2026-10-08_framework",
+    "date": "2026-10-08",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "career_positioning",
+    "pillar": "Career",
+    "message_id": 77,
+    "published_at": "2026-10-08T17:42:01.626153+05:30"
   }
 ]

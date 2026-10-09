@@ -578,5 +578,15 @@
     "pillar": "Leadership",
     "message_id": 81,
     "published_at": "2026-10-09T17:33:37.808645+05:30"
+  },
+  {
+    "key": "2026-10-09_executive_perspective",
+    "date": "2026-10-09",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "resilience",
+    "pillar": "Mindset",
+    "message_id": 82,
+    "published_at": "2026-10-09T20:59:34.936726+05:30"
   }
 ]

@@ -588,5 +588,15 @@
     "pillar": "Mindset",
     "message_id": 82,
     "published_at": "2026-10-09T20:59:34.936726+05:30"
+  },
+  {
+    "key": "2026-10-09_workplace_reality",
+    "date": "2026-10-09",
+    "slot": "17:30",
+    "format": "workplace",
+    "topic": "visibility",
+    "pillar": "Career",
+    "message_id": 83,
+    "published_at": "2026-10-09T23:14:35.772620+05:30"
   }
 ]

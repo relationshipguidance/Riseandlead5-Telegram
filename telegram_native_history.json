@@ -568,5 +568,15 @@
     "pillar": "Leadership",
     "message_id": 80,
     "published_at": "2026-10-09T14:50:21.287861+05:30"
+  },
+  {
+    "key": "2026-10-09_framework",
+    "date": "2026-10-09",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "communication",
+    "pillar": "Leadership",
+    "message_id": 81,
+    "published_at": "2026-10-09T17:33:37.808645+05:30"
   }
 ]

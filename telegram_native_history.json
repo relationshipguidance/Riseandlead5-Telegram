@@ -598,5 +598,15 @@
     "pillar": "Career",
     "message_id": 83,
     "published_at": "2026-10-09T23:14:35.772620+05:30"
+  },
+  {
+    "key": "2026-10-10_morning_insight",
+    "date": "2026-10-10",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "promotion_readiness",
+    "pillar": "Career",
+    "message_id": 84,
+    "published_at": "2026-10-10T14:11:53.326611+05:30"
   }
 ]

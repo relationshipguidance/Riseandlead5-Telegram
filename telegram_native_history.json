@@ -608,5 +608,15 @@
     "pillar": "Career",
     "message_id": 84,
     "published_at": "2026-10-10T14:11:53.326611+05:30"
+  },
+  {
+    "key": "2026-10-10_framework",
+    "date": "2026-10-10",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "decision_quality",
+    "pillar": "Leadership",
+    "message_id": 85,
+    "published_at": "2026-10-10T16:49:55.130553+05:30"
   }
 ]

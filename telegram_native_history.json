@@ -648,5 +648,15 @@
     "pillar": "Leadership",
     "message_id": 88,
     "published_at": "2026-10-11T14:35:42.258803+05:30"
+  },
+  {
+    "key": "2026-10-11_framework",
+    "date": "2026-10-11",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "promotion_readiness",
+    "pillar": "Career",
+    "message_id": 89,
+    "published_at": "2026-10-11T17:03:11.257227+05:30"
   }
 ]

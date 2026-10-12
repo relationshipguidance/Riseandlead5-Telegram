@@ -698,5 +698,15 @@
     "pillar": "Mindset",
     "message_id": 93,
     "published_at": "2026-10-12T18:56:18.038302+05:30"
+  },
+  {
+    "key": "2026-10-12_executive_perspective",
+    "date": "2026-10-12",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "workplace_reality",
+    "pillar": "Workplace Reality",
+    "message_id": 94,
+    "published_at": "2026-10-12T23:37:33.130312+05:30"
   }
 ]

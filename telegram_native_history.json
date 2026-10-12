@@ -688,5 +688,15 @@
     "pillar": "Leadership",
     "message_id": 92,
     "published_at": "2026-10-12T14:58:49.994297+05:30"
+  },
+  {
+    "key": "2026-10-12_framework",
+    "date": "2026-10-12",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "resilience",
+    "pillar": "Mindset",
+    "message_id": 93,
+    "published_at": "2026-10-12T18:56:18.038302+05:30"
   }
 ]

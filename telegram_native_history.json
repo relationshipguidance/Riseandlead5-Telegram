@@ -718,5 +718,15 @@
     "pillar": "Leadership",
     "message_id": 95,
     "published_at": "2026-10-13T15:05:05.210150+05:30"
+  },
+  {
+    "key": "2026-10-13_framework",
+    "date": "2026-10-13",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "decision_quality",
+    "pillar": "Leadership",
+    "message_id": 96,
+    "published_at": "2026-10-13T18:24:09.210906+05:30"
   }
 ]

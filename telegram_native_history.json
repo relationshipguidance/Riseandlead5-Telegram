@@ -738,5 +738,15 @@
     "pillar": "Leadership",
     "message_id": 97,
     "published_at": "2026-10-13T21:46:11.283163+05:30"
+  },
+  {
+    "key": "2026-10-14_morning_insight",
+    "date": "2026-10-14",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "strategic_thinking",
+    "pillar": "Leadership",
+    "message_id": 98,
+    "published_at": "2026-10-14T13:19:29.898906+05:30"
   }
 ]

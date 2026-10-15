@@ -808,5 +808,15 @@
     "pillar": "Mindset",
     "message_id": 104,
     "published_at": "2026-10-15T19:06:59.420502+05:30"
+  },
+  {
+    "key": "2026-10-15_workplace_reality",
+    "date": "2026-10-15",
+    "slot": "17:30",
+    "format": "workplace",
+    "topic": "confidence",
+    "pillar": "Mindset",
+    "message_id": 105,
+    "published_at": "2026-10-15T21:29:41.669312+05:30"
   }
 ]

@@ -778,5 +778,15 @@
     "pillar": "Career",
     "message_id": 101,
     "published_at": "2026-10-14T21:41:55.976868+05:30"
+  },
+  {
+    "key": "2026-10-15_morning_insight",
+    "date": "2026-10-15",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "focus",
+    "pillar": "Mindset",
+    "message_id": 102,
+    "published_at": "2026-10-15T13:05:56.772028+05:30"
   }
 ]

@@ -798,5 +798,15 @@
     "pillar": "Leadership",
     "message_id": 103,
     "published_at": "2026-10-15T15:44:19.105259+05:30"
+  },
+  {
+    "key": "2026-10-15_executive_perspective",
+    "date": "2026-10-15",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "self_command",
+    "pillar": "Mindset",
+    "message_id": 104,
+    "published_at": "2026-10-15T19:06:59.420502+05:30"
   }
 ]

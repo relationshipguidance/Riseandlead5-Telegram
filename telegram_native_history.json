@@ -838,5 +838,15 @@
     "pillar": "Leadership",
     "message_id": 108,
     "published_at": "2026-10-16T15:33:33.661802+05:30"
+  },
+  {
+    "key": "2026-10-16_executive_perspective",
+    "date": "2026-10-16",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "recognition",
+    "pillar": "Career",
+    "message_id": 109,
+    "published_at": "2026-10-16T18:57:02.741090+05:30"
   }
 ]

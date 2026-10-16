@@ -848,5 +848,15 @@
     "pillar": "Career",
     "message_id": 109,
     "published_at": "2026-10-16T18:57:02.741090+05:30"
+  },
+  {
+    "key": "2026-10-16_workplace_reality",
+    "date": "2026-10-16",
+    "slot": "17:30",
+    "format": "workplace",
+    "topic": "professional_reputation",
+    "pillar": "Career",
+    "message_id": 110,
+    "published_at": "2026-10-16T21:17:43.012954+05:30"
   }
 ]

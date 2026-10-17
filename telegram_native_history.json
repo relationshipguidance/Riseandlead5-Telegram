@@ -888,5 +888,15 @@
     "pillar": "Career",
     "message_id": 114,
     "published_at": "2026-10-17T17:49:40.364100+05:30"
+  },
+  {
+    "key": "2026-10-17_workplace_reality",
+    "date": "2026-10-17",
+    "slot": "17:30",
+    "format": "workplace",
+    "topic": "self_command",
+    "pillar": "Mindset",
+    "message_id": 115,
+    "published_at": "2026-10-17T20:10:35.273629+05:30"
   }
 ]

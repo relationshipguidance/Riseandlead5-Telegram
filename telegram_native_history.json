@@ -898,5 +898,15 @@
     "pillar": "Mindset",
     "message_id": 115,
     "published_at": "2026-10-17T20:10:35.273629+05:30"
+  },
+  {
+    "key": "2026-10-17_question",
+    "date": "2026-10-17",
+    "slot": "20:30",
+    "format": "question",
+    "topic": "executive_presence",
+    "pillar": "Leadership",
+    "message_id": 116,
+    "published_at": "2026-10-17T23:16:44.922655+05:30"
   }
 ]

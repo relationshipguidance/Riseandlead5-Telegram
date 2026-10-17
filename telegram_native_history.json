@@ -878,5 +878,15 @@
     "pillar": "Mindset",
     "message_id": 113,
     "published_at": "2026-10-17T15:07:00.869063+05:30"
+  },
+  {
+    "key": "2026-10-17_executive_perspective",
+    "date": "2026-10-17",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "promotion_readiness",
+    "pillar": "Career",
+    "message_id": 114,
+    "published_at": "2026-10-17T17:49:40.364100+05:30"
   }
 ]

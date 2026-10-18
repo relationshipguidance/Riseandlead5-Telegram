@@ -938,5 +938,15 @@
     "pillar": "Mindset",
     "message_id": 119,
     "published_at": "2026-10-18T18:14:42.664509+05:30"
+  },
+  {
+    "key": "2026-10-18_workplace_reality",
+    "date": "2026-10-18",
+    "slot": "17:30",
+    "format": "workplace",
+    "topic": "focus",
+    "pillar": "Mindset",
+    "message_id": 120,
+    "published_at": "2026-10-18T20:36:39.018612+05:30"
   }
 ]

@@ -968,5 +968,15 @@
     "pillar": "Leadership",
     "message_id": 123,
     "published_at": "2026-10-19T13:26:50.682077+05:30"
+  },
+  {
+    "key": "2026-10-19_framework",
+    "date": "2026-10-19",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "career_positioning",
+    "pillar": "Career",
+    "message_id": 124,
+    "published_at": "2026-10-19T16:38:17.719023+05:30"
   }
 ]

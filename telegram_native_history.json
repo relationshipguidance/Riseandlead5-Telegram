@@ -958,5 +958,15 @@
     "pillar": "Career",
     "message_id": 121,
     "published_at": "2026-10-18T23:22:10.393273+05:30"
+  },
+  {
+    "key": "2026-10-19_morning_insight",
+    "date": "2026-10-19",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "influence",
+    "pillar": "Leadership",
+    "message_id": 123,
+    "published_at": "2026-10-19T13:26:50.682077+05:30"
   }
 ]

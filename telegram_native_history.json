@@ -998,5 +998,15 @@
     "pillar": "Leadership",
     "message_id": 126,
     "published_at": "2026-10-19T23:28:30.377199+05:30"
+  },
+  {
+    "key": "2026-10-20_morning_insight",
+    "date": "2026-10-20",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "resilience",
+    "pillar": "Mindset",
+    "message_id": 127,
+    "published_at": "2026-10-20T13:17:02.352653+05:30"
   }
 ]

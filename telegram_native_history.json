@@ -1018,5 +1018,15 @@
     "pillar": "Leadership",
     "message_id": 128,
     "published_at": "2026-10-20T15:51:02.034579+05:30"
+  },
+  {
+    "key": "2026-10-20_executive_perspective",
+    "date": "2026-10-20",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "promotion_readiness",
+    "pillar": "Career",
+    "message_id": 129,
+    "published_at": "2026-10-20T19:16:32.023344+05:30"
   }
 ]

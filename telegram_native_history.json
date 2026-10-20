@@ -1028,5 +1028,15 @@
     "pillar": "Career",
     "message_id": 129,
     "published_at": "2026-10-20T19:16:32.023344+05:30"
+  },
+  {
+    "key": "2026-10-20_workplace_reality",
+    "date": "2026-10-20",
+    "slot": "17:30",
+    "format": "workplace",
+    "topic": "focus",
+    "pillar": "Mindset",
+    "message_id": 130,
+    "published_at": "2026-10-20T21:33:08.057109+05:30"
   }
 ]

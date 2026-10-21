@@ -1068,5 +1068,15 @@
     "pillar": "Career",
     "message_id": 134,
     "published_at": "2026-10-21T19:32:01.377923+05:30"
+  },
+  {
+    "key": "2026-10-21_workplace_reality",
+    "date": "2026-10-21",
+    "slot": "17:30",
+    "format": "workplace",
+    "topic": "recognition",
+    "pillar": "Career",
+    "message_id": 135,
+    "published_at": "2026-10-21T21:49:52.176928+05:30"
   }
 ]

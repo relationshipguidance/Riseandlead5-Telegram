@@ -1048,5 +1048,15 @@
     "pillar": "Leadership",
     "message_id": 132,
     "published_at": "2026-10-21T13:20:45.381587+05:30"
+  },
+  {
+    "key": "2026-10-21_framework",
+    "date": "2026-10-21",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "strategic_thinking",
+    "pillar": "Leadership",
+    "message_id": 133,
+    "published_at": "2026-10-21T16:00:06.928877+05:30"
   }
 ]

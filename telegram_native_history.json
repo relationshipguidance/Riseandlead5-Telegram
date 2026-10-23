@@ -1138,5 +1138,15 @@
     "pillar": "Career",
     "message_id": 141,
     "published_at": "2026-10-23T15:56:11.173968+05:30"
+  },
+  {
+    "key": "2026-10-23_executive_perspective",
+    "date": "2026-10-23",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "leadership_identity",
+    "pillar": "Mindset",
+    "message_id": 142,
+    "published_at": "2026-10-23T19:13:08.035078+05:30"
   }
 ]

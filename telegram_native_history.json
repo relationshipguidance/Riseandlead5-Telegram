@@ -1178,5 +1178,15 @@
     "pillar": "Leadership",
     "message_id": 145,
     "published_at": "2026-10-24T15:14:44.134238+05:30"
+  },
+  {
+    "key": "2026-10-24_executive_perspective",
+    "date": "2026-10-24",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "leadership_identity",
+    "pillar": "Mindset",
+    "message_id": 146,
+    "published_at": "2026-10-24T18:21:37.365826+05:30"
   }
 ]

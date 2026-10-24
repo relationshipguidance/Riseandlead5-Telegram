@@ -1158,5 +1158,15 @@
     "pillar": "Mindset",
     "message_id": 143,
     "published_at": "2026-10-23T21:38:31.069692+05:30"
+  },
+  {
+    "key": "2026-10-24_morning_insight",
+    "date": "2026-10-24",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "stakeholder_management",
+    "pillar": "Leadership",
+    "message_id": 144,
+    "published_at": "2026-10-24T12:57:23.762879+05:30"
   }
 ]

@@ -1238,5 +1238,15 @@
     "pillar": "Mindset",
     "message_id": 152,
     "published_at": "2026-10-25T18:48:22.212446+05:30"
+  },
+  {
+    "key": "2026-10-25_workplace_reality",
+    "date": "2026-10-25",
+    "slot": "17:30",
+    "format": "workplace",
+    "topic": "career_transition",
+    "pillar": "Career",
+    "message_id": 153,
+    "published_at": "2026-10-25T20:47:11.431473+05:30"
   }
 ]

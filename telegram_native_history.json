@@ -1228,5 +1228,15 @@
     "pillar": "Mindset",
     "message_id": 151,
     "published_at": "2026-10-25T15:34:12.546714+05:30"
+  },
+  {
+    "key": "2026-10-25_executive_perspective",
+    "date": "2026-10-25",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "focus",
+    "pillar": "Mindset",
+    "message_id": 152,
+    "published_at": "2026-10-25T18:48:22.212446+05:30"
   }
 ]

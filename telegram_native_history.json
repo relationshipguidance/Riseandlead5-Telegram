@@ -1218,5 +1218,15 @@
     "pillar": "Leadership",
     "message_id": 150,
     "published_at": "2026-10-25T13:11:32.566760+05:30"
+  },
+  {
+    "key": "2026-10-25_framework",
+    "date": "2026-10-25",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "leadership_identity",
+    "pillar": "Mindset",
+    "message_id": 151,
+    "published_at": "2026-10-25T15:34:12.546714+05:30"
   }
 ]

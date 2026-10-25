@@ -1208,5 +1208,15 @@
     "pillar": "Leadership",
     "message_id": 149,
     "published_at": "2026-10-24T23:23:47.428262+05:30"
+  },
+  {
+    "key": "2026-10-25_morning_insight",
+    "date": "2026-10-25",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "decision_quality",
+    "pillar": "Leadership",
+    "message_id": 150,
+    "published_at": "2026-10-25T13:11:32.566760+05:30"
   }
 ]

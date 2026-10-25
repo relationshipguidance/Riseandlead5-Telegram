@@ -1248,5 +1248,15 @@
     "pillar": "Career",
     "message_id": 153,
     "published_at": "2026-10-25T20:47:11.431473+05:30"
+  },
+  {
+    "key": "2026-10-25_question",
+    "date": "2026-10-25",
+    "slot": "20:30",
+    "format": "question",
+    "topic": "difficult_conversations",
+    "pillar": "Leadership",
+    "message_id": 154,
+    "published_at": "2026-10-25T23:42:05.282769+05:30"
   }
 ]

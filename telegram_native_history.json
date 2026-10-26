@@ -1288,5 +1288,15 @@
     "pillar": "Mindset",
     "message_id": 157,
     "published_at": "2026-10-26T20:52:47.425662+05:30"
+  },
+  {
+    "key": "2026-10-26_workplace_reality",
+    "date": "2026-10-26",
+    "slot": "17:30",
+    "format": "workplace",
+    "topic": "accountability",
+    "pillar": "Leadership",
+    "message_id": 158,
+    "published_at": "2026-10-26T23:26:38.884338+05:30"
   }
 ]

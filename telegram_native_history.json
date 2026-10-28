@@ -1348,5 +1348,15 @@
     "pillar": "Career",
     "message_id": 164,
     "published_at": "2026-10-28T14:15:46.110540+05:30"
+  },
+  {
+    "key": "2026-10-28_framework",
+    "date": "2026-10-28",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "leadership_identity",
+    "pillar": "Mindset",
+    "message_id": 165,
+    "published_at": "2026-10-28T17:01:52.008887+05:30"
   }
 ]

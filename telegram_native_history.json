@@ -1368,5 +1368,15 @@
     "pillar": "Career",
     "message_id": 166,
     "published_at": "2026-10-28T20:50:15.785229+05:30"
+  },
+  {
+    "key": "2026-10-28_workplace_reality",
+    "date": "2026-10-28",
+    "slot": "17:30",
+    "format": "workplace",
+    "topic": "communication",
+    "pillar": "Leadership",
+    "message_id": 167,
+    "published_at": "2026-10-28T23:10:24.270244+05:30"
   }
 ]

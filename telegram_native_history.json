@@ -1398,5 +1398,15 @@
     "pillar": "Career",
     "message_id": 170,
     "published_at": "2026-10-29T17:11:03.813632+05:30"
+  },
+  {
+    "key": "2026-10-29_executive_perspective",
+    "date": "2026-10-29",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "accountability",
+    "pillar": "Leadership",
+    "message_id": 171,
+    "published_at": "2026-10-29T20:56:44.383406+05:30"
   }
 ]

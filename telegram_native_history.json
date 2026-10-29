@@ -1388,5 +1388,15 @@
     "pillar": "Mindset",
     "message_id": 169,
     "published_at": "2026-10-29T14:11:50.286260+05:30"
+  },
+  {
+    "key": "2026-10-29_framework",
+    "date": "2026-10-29",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "promotion_readiness",
+    "pillar": "Career",
+    "message_id": 170,
+    "published_at": "2026-10-29T17:11:03.813632+05:30"
   }
 ]

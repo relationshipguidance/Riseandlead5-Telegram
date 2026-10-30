@@ -1448,5 +1448,15 @@
     "pillar": "Career",
     "message_id": 176,
     "published_at": "2026-10-30T20:41:27.374369+05:30"
+  },
+  {
+    "key": "2026-10-30_workplace_reality",
+    "date": "2026-10-30",
+    "slot": "17:30",
+    "format": "workplace",
+    "topic": "strategic_thinking",
+    "pillar": "Leadership",
+    "message_id": 177,
+    "published_at": "2026-10-30T22:58:43.189167+05:30"
   }
 ]

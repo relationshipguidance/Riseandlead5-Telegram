@@ -1478,5 +1478,15 @@
     "pillar": "Mindset",
     "message_id": 179,
     "published_at": "2026-10-31T16:37:48.076110+05:30"
+  },
+  {
+    "key": "2026-10-31_executive_perspective",
+    "date": "2026-10-31",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "stakeholder_management",
+    "pillar": "Leadership",
+    "message_id": 180,
+    "published_at": "2026-10-31T20:10:16.018072+05:30"
   }
 ]

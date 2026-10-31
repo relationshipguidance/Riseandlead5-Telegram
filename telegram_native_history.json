@@ -1458,5 +1458,15 @@
     "pillar": "Leadership",
     "message_id": 177,
     "published_at": "2026-10-30T22:58:43.189167+05:30"
+  },
+  {
+    "key": "2026-10-31_morning_insight",
+    "date": "2026-10-31",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "accountability",
+    "pillar": "Leadership",
+    "message_id": 178,
+    "published_at": "2026-10-31T14:05:15.590488+05:30"
   }
 ]

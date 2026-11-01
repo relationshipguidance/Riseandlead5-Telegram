@@ -1498,5 +1498,15 @@
     "pillar": "Career",
     "message_id": 181,
     "published_at": "2026-10-31T22:02:06.451309+05:30"
+  },
+  {
+    "key": "2026-11-01_morning_insight",
+    "date": "2026-11-01",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "confidence",
+    "pillar": "Mindset",
+    "message_id": 183,
+    "published_at": "2026-11-01T14:56:09.605211+05:30"
   }
 ]

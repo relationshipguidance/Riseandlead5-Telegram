@@ -1538,5 +1538,15 @@
     "pillar": "Career",
     "message_id": 186,
     "published_at": "2026-11-01T22:55:10.216151+05:30"
+  },
+  {
+    "key": "2026-11-02_morning_insight",
+    "date": "2026-11-02",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "career_positioning",
+    "pillar": "Career",
+    "message_id": 188,
+    "published_at": "2026-11-02T15:11:42.668440+05:30"
   }
 ]

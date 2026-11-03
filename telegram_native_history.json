@@ -1568,5 +1568,15 @@
     "pillar": "Career",
     "message_id": 191,
     "published_at": "2026-11-03T15:15:19.242597+05:30"
+  },
+  {
+    "key": "2026-11-03_framework",
+    "date": "2026-11-03",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "influence",
+    "pillar": "Leadership",
+    "message_id": 192,
+    "published_at": "2026-11-03T18:27:41.465519+05:30"
   }
 ]

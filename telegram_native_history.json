@@ -1588,5 +1588,15 @@
     "pillar": "Career",
     "message_id": 193,
     "published_at": "2026-11-03T21:56:13.498008+05:30"
+  },
+  {
+    "key": "2026-11-04_morning_insight",
+    "date": "2026-11-04",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "focus",
+    "pillar": "Mindset",
+    "message_id": 195,
+    "published_at": "2026-11-04T15:02:06.610050+05:30"
   }
 ]

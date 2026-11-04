@@ -1598,5 +1598,15 @@
     "pillar": "Mindset",
     "message_id": 195,
     "published_at": "2026-11-04T15:02:06.610050+05:30"
+  },
+  {
+    "key": "2026-11-04_framework",
+    "date": "2026-11-04",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "career_positioning",
+    "pillar": "Career",
+    "message_id": 196,
+    "published_at": "2026-11-04T18:42:58.139416+05:30"
   }
 ]

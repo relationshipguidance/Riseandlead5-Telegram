@@ -1628,5 +1628,15 @@
     "pillar": "Career",
     "message_id": 199,
     "published_at": "2026-11-05T15:10:06.491980+05:30"
+  },
+  {
+    "key": "2026-11-05_framework",
+    "date": "2026-11-05",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "self_command",
+    "pillar": "Mindset",
+    "message_id": 200,
+    "published_at": "2026-11-05T18:56:50.883720+05:30"
   }
 ]

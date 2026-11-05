@@ -1638,5 +1638,15 @@
     "pillar": "Mindset",
     "message_id": 200,
     "published_at": "2026-11-05T18:56:50.883720+05:30"
+  },
+  {
+    "key": "2026-11-05_executive_perspective",
+    "date": "2026-11-05",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "visibility",
+    "pillar": "Career",
+    "message_id": 201,
+    "published_at": "2026-11-05T22:10:07.569676+05:30"
   }
 ]

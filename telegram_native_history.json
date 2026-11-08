@@ -1738,5 +1738,15 @@
     "pillar": "Career",
     "message_id": 211,
     "published_at": "2026-11-08T17:37:43.858648+05:30"
+  },
+  {
+    "key": "2026-11-08_executive_perspective",
+    "date": "2026-11-08",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "professional_reputation",
+    "pillar": "Career",
+    "message_id": 212,
+    "published_at": "2026-11-08T20:59:31.770323+05:30"
   }
 ]

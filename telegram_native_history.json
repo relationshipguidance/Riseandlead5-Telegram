@@ -1718,5 +1718,15 @@
     "pillar": "Career",
     "message_id": 208,
     "published_at": "2026-11-07T22:41:31.844186+05:30"
+  },
+  {
+    "key": "2026-11-08_morning_insight",
+    "date": "2026-11-08",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "workplace_reality",
+    "pillar": "Workplace Reality",
+    "message_id": 210,
+    "published_at": "2026-11-08T14:45:13.320643+05:30"
   }
 ]

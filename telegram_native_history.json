@@ -1768,5 +1768,15 @@
     "pillar": "Leadership",
     "message_id": 214,
     "published_at": "2026-11-09T15:28:12.468157+05:30"
+  },
+  {
+    "key": "2026-11-09_framework",
+    "date": "2026-11-09",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "confidence",
+    "pillar": "Mindset",
+    "message_id": 215,
+    "published_at": "2026-11-09T19:44:41.689697+05:30"
   }
 ]

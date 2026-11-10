@@ -1778,5 +1778,15 @@
     "pillar": "Mindset",
     "message_id": 215,
     "published_at": "2026-11-09T19:44:41.689697+05:30"
+  },
+  {
+    "key": "2026-11-10_morning_insight",
+    "date": "2026-11-10",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "career_transition",
+    "pillar": "Career",
+    "message_id": 216,
+    "published_at": "2026-11-10T15:37:15.623650+05:30"
   }
 ]

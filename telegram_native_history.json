@@ -1788,5 +1788,15 @@
     "pillar": "Career",
     "message_id": 216,
     "published_at": "2026-11-10T15:37:15.623650+05:30"
+  },
+  {
+    "key": "2026-11-10_framework",
+    "date": "2026-11-10",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "strategic_thinking",
+    "pillar": "Leadership",
+    "message_id": 217,
+    "published_at": "2026-11-10T19:12:57.476119+05:30"
   }
 ]

@@ -1828,5 +1828,15 @@
     "pillar": "Career",
     "message_id": 220,
     "published_at": "2026-11-11T18:24:21.577997+05:30"
+  },
+  {
+    "key": "2026-11-11_executive_perspective",
+    "date": "2026-11-11",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "workplace_reality",
+    "pillar": "Workplace Reality",
+    "message_id": 221,
+    "published_at": "2026-11-11T21:58:17.941349+05:30"
   }
 ]

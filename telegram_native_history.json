@@ -1848,5 +1848,15 @@
     "pillar": "Career",
     "message_id": 222,
     "published_at": "2026-11-12T15:28:33.197984+05:30"
+  },
+  {
+    "key": "2026-11-12_framework",
+    "date": "2026-11-12",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "workplace_reality",
+    "pillar": "Workplace Reality",
+    "message_id": 223,
+    "published_at": "2026-11-12T19:26:26.982176+05:30"
   }
 ]

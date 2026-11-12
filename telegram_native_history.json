@@ -1858,5 +1858,15 @@
     "pillar": "Workplace Reality",
     "message_id": 223,
     "published_at": "2026-11-12T19:26:26.982176+05:30"
+  },
+  {
+    "key": "2026-11-12_executive_perspective",
+    "date": "2026-11-12",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "influence",
+    "pillar": "Leadership",
+    "message_id": 224,
+    "published_at": "2026-11-12T22:29:22.573565+05:30"
   }
 ]

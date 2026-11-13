@@ -1888,5 +1888,15 @@
     "pillar": "Workplace Reality",
     "message_id": 226,
     "published_at": "2026-11-13T18:52:08.237967+05:30"
+  },
+  {
+    "key": "2026-11-13_executive_perspective",
+    "date": "2026-11-13",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "recognition",
+    "pillar": "Career",
+    "message_id": 227,
+    "published_at": "2026-11-13T22:10:47.814043+05:30"
   }
 ]

@@ -1878,5 +1878,15 @@
     "pillar": "Mindset",
     "message_id": 225,
     "published_at": "2026-11-13T15:17:04.238615+05:30"
+  },
+  {
+    "key": "2026-11-13_framework",
+    "date": "2026-11-13",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "workplace_reality",
+    "pillar": "Workplace Reality",
+    "message_id": 226,
+    "published_at": "2026-11-13T18:52:08.237967+05:30"
   }
 ]

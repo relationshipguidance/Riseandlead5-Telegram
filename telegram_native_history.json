@@ -1868,5 +1868,15 @@
     "pillar": "Leadership",
     "message_id": 224,
     "published_at": "2026-11-12T22:29:22.573565+05:30"
+  },
+  {
+    "key": "2026-11-13_morning_insight",
+    "date": "2026-11-13",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "focus",
+    "pillar": "Mindset",
+    "message_id": 225,
+    "published_at": "2026-11-13T15:17:04.238615+05:30"
   }
 ]

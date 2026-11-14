@@ -1908,5 +1908,15 @@
     "pillar": "Mindset",
     "message_id": 228,
     "published_at": "2026-11-14T17:56:31.314725+05:30"
+  },
+  {
+    "key": "2026-11-14_framework",
+    "date": "2026-11-14",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "decision_quality",
+    "pillar": "Leadership",
+    "message_id": 229,
+    "published_at": "2026-11-14T20:46:25.512180+05:30"
   }
 ]

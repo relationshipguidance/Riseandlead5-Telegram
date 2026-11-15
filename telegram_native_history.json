@@ -1928,5 +1928,15 @@
     "pillar": "Leadership",
     "message_id": 230,
     "published_at": "2026-11-14T22:58:46.604261+05:30"
+  },
+  {
+    "key": "2026-11-15_morning_insight",
+    "date": "2026-11-15",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "influence",
+    "pillar": "Leadership",
+    "message_id": 231,
+    "published_at": "2026-11-15T15:08:55.310124+05:30"
   }
 ]

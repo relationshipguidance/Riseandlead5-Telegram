@@ -1948,5 +1948,15 @@
     "pillar": "Career",
     "message_id": 232,
     "published_at": "2026-11-15T18:25:37.517051+05:30"
+  },
+  {
+    "key": "2026-11-15_executive_perspective",
+    "date": "2026-11-15",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "stakeholder_management",
+    "pillar": "Leadership",
+    "message_id": 233,
+    "published_at": "2026-11-15T21:17:06.416717+05:30"
   }
 ]

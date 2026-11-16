@@ -1978,5 +1978,15 @@
     "pillar": "Mindset",
     "message_id": 235,
     "published_at": "2026-11-16T15:26:53.236078+05:30"
+  },
+  {
+    "key": "2026-11-16_framework",
+    "date": "2026-11-16",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "visibility",
+    "pillar": "Career",
+    "message_id": 236,
+    "published_at": "2026-11-16T19:25:58.973482+05:30"
   }
 ]

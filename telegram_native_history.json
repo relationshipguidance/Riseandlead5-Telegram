@@ -1968,5 +1968,15 @@
     "pillar": "Leadership",
     "message_id": 234,
     "published_at": "2026-11-15T23:44:49.748837+05:30"
+  },
+  {
+    "key": "2026-11-16_morning_insight",
+    "date": "2026-11-16",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "leadership_identity",
+    "pillar": "Mindset",
+    "message_id": 235,
+    "published_at": "2026-11-16T15:26:53.236078+05:30"
   }
 ]

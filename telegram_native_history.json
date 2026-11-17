@@ -2008,5 +2008,15 @@
     "pillar": "Career",
     "message_id": 238,
     "published_at": "2026-11-17T20:19:00.452669+05:30"
+  },
+  {
+    "key": "2026-11-17_executive_perspective",
+    "date": "2026-11-17",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "focus",
+    "pillar": "Mindset",
+    "message_id": 239,
+    "published_at": "2026-11-17T23:16:15.456191+05:30"
   }
 ]

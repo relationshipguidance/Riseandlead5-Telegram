@@ -1988,5 +1988,15 @@
     "pillar": "Career",
     "message_id": 236,
     "published_at": "2026-11-16T19:25:58.973482+05:30"
+  },
+  {
+    "key": "2026-11-17_morning_insight",
+    "date": "2026-11-17",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "promotion_readiness",
+    "pillar": "Career",
+    "message_id": 237,
+    "published_at": "2026-11-17T16:23:17.093408+05:30"
   }
 ]

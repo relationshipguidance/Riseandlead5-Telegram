@@ -2038,5 +2038,15 @@
     "pillar": "Leadership",
     "message_id": 241,
     "published_at": "2026-11-18T19:58:49.947425+05:30"
+  },
+  {
+    "key": "2026-11-18_executive_perspective",
+    "date": "2026-11-18",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "visibility",
+    "pillar": "Career",
+    "message_id": 242,
+    "published_at": "2026-11-18T22:57:37.574516+05:30"
   }
 ]

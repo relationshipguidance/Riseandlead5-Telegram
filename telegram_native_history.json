@@ -2048,5 +2048,15 @@
     "pillar": "Career",
     "message_id": 242,
     "published_at": "2026-11-18T22:57:37.574516+05:30"
+  },
+  {
+    "key": "2026-11-19_morning_insight",
+    "date": "2026-11-19",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "leadership_identity",
+    "pillar": "Mindset",
+    "message_id": 243,
+    "published_at": "2026-11-19T16:01:41.352112+05:30"
   }
 ]

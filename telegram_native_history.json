@@ -2128,5 +2128,15 @@
     "pillar": "Career",
     "message_id": 250,
     "published_at": "2026-11-21T19:09:46.199163+05:30"
+  },
+  {
+    "key": "2026-11-21_executive_perspective",
+    "date": "2026-11-21",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "accountability",
+    "pillar": "Leadership",
+    "message_id": 251,
+    "published_at": "2026-11-21T21:48:52.750048+05:30"
   }
 ]

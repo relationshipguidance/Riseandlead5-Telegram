@@ -2108,5 +2108,15 @@
     "pillar": "Career",
     "message_id": 248,
     "published_at": "2026-11-20T22:38:02.366258+05:30"
+  },
+  {
+    "key": "2026-11-21_morning_insight",
+    "date": "2026-11-21",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "executive_presence",
+    "pillar": "Leadership",
+    "message_id": 249,
+    "published_at": "2026-11-21T15:28:45.364545+05:30"
   }
 ]

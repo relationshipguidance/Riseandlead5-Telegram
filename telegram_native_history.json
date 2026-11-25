@@ -2218,5 +2218,15 @@
     "pillar": "Leadership",
     "message_id": 259,
     "published_at": "2026-11-24T21:44:22.777384+05:30"
+  },
+  {
+    "key": "2026-11-25_morning_insight",
+    "date": "2026-11-25",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "stakeholder_management",
+    "pillar": "Leadership",
+    "message_id": 260,
+    "published_at": "2026-11-25T16:59:48.754765+05:30"
   }
 ]

@@ -2258,5 +2258,15 @@
     "pillar": "Mindset",
     "message_id": 263,
     "published_at": "2026-11-26T21:09:18.719144+05:30"
+  },
+  {
+    "key": "2026-11-27_morning_insight",
+    "date": "2026-11-27",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "workplace_reality",
+    "pillar": "Workplace Reality",
+    "message_id": 264,
+    "published_at": "2026-11-27T16:33:04.446935+05:30"
   }
 ]

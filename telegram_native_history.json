@@ -2278,5 +2278,15 @@
     "pillar": "Mindset",
     "message_id": 265,
     "published_at": "2026-11-27T20:59:25.125734+05:30"
+  },
+  {
+    "key": "2026-11-27_executive_perspective",
+    "date": "2026-11-27",
+    "slot": "14:00",
+    "format": "perspective",
+    "topic": "executive_presence",
+    "pillar": "Leadership",
+    "message_id": 266,
+    "published_at": "2026-11-27T23:52:17.623271+05:30"
   }
 ]

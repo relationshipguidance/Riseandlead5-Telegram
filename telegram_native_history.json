@@ -2298,5 +2298,15 @@
     "pillar": "Career",
     "message_id": 267,
     "published_at": "2026-11-28T16:10:12.913753+05:30"
+  },
+  {
+    "key": "2026-11-28_framework",
+    "date": "2026-11-28",
+    "slot": "11:00",
+    "format": "framework",
+    "topic": "communication",
+    "pillar": "Leadership",
+    "message_id": 268,
+    "published_at": "2026-11-28T19:57:33.358115+05:30"
   }
 ]

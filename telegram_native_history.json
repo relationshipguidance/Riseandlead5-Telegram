@@ -2288,5 +2288,15 @@
     "pillar": "Leadership",
     "message_id": 266,
     "published_at": "2026-11-27T23:52:17.623271+05:30"
+  },
+  {
+    "key": "2026-11-28_morning_insight",
+    "date": "2026-11-28",
+    "slot": "08:00",
+    "format": "insight",
+    "topic": "professional_reputation",
+    "pillar": "Career",
+    "message_id": 267,
+    "published_at": "2026-11-28T16:10:12.913753+05:30"
   }
 ]
